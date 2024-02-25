@@ -816,7 +816,6 @@ int thermal_zone_bind_cooling_device(struct thermal_zone_device *tz,
 	if (result)
 		goto remove_symbol_link;
 
-<<<<<<< HEAD
 	snprintf(dev->upper_attr_name, THERMAL_NAME_LENGTH,
 			"cdev%d_upper_limit", dev->id);
 	sysfs_attr_init(&dev->upper_attr.attr);
